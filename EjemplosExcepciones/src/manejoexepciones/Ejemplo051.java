@@ -28,6 +28,12 @@ public class Ejemplo051 {
 
                 System.out.printf("Resultado %d\n", resultado);
                 bandera = false;
+                /*
+                este codigo empieza ejecutando la linea 22, y si el usuario 
+                ingresa una cadena o el valor = 0, se envia al catch, pero si 
+                el usuario ingresa los valores correctos el codigo se ejecuta 
+                perfectamente y no envia la advertencia de los errores
+                */
             } catch (InputMismatchException inputMismatchException) {
 
                 System.out.printf("Existe un error de tipo %s\n",
